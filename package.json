@@ -1,10 +1,18 @@
 {
-  "name": "frontend-project-lvl1",
+  "name": "brain-games",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,10 +24,11 @@
     "url": "https://github.com/ivan-vdovin/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/ivan-vdovin/frontend-project-lvl1#readme",
-  "dependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/node": "^7.7.0",
-    "@babel/preset-env": "^7.7.1"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
   }
 }
