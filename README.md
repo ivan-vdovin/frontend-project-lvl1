@@ -5,7 +5,7 @@
 
 ## Install package
 
-```$ snpm install brain-even```
+```$ npm install brain-even```
 
 <p align="center"> <img width=auto height=auto src="gif/install.gif"> </p>
 

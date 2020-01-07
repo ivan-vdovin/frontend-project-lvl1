@@ -4,7 +4,8 @@
   "description": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"
@@ -26,7 +27,6 @@
   },
   "homepage": "https://github.com/ivan-vdovin/frontend-project-lvl1#readme",
   "dependencies": {
-    "brain-even": "^0.1.12",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
