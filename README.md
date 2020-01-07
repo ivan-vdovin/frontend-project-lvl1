@@ -9,8 +9,14 @@
 
 <p align="center"> <img width=auto height=auto src="gif/install.gif"> </p>
 
-## "Even number"
+## Game "Is even number?"
 
 ```$ brain-even```
 
 <p align="center"> <img width=auto height=auto src="gif/even.gif"> </p>
+
+## Game "Calculator"
+
+```$ brain-calc```
+
+<p align="center"> <img width=auto height=auto src="gif/calc.gif"> </p>
