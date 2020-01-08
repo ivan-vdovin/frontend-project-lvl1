@@ -29,3 +29,10 @@ User sees two random numbers. He must calculate and enter the largest common div
 run game ```$ brain-gcd```
 
 <p align="center"> <img width=auto height=auto src="gif/gcd.gif"> </p>
+
+## Game "Arithmetic progression"
+User sees a series of numbers forming an arithmetic progression, one of which is represented by two points. He must determine and enter this number.
+
+run game ```$ brain-progression```
+
+<p align="center"> <img width=auto height=auto src="gif/progression.gif"> </p>
