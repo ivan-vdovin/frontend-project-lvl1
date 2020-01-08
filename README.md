@@ -5,7 +5,7 @@
 
 ## Install package
 
-```$ npm install brain-even```
+```$ npm link frontend-project-lvl1```
 
 <p align="center"> <img width=auto height=auto src="gif/install.gif"> </p>
 
