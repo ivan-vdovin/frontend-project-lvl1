@@ -36,3 +36,10 @@ User sees a series of numbers forming an arithmetic progression, one of which is
 run game ```$ brain-progression```
 
 <p align="center"> <img width=auto height=auto src="gif/progression.gif"> </p>
+
+## Game "Is prime number?"
+User sees a random number. He needs to answer **yes** if the number is prime, or **no** if not.
+
+run game ```$ brain-prime```
+
+<p align="center"> <img width=auto height=auto src="gif/prime.gif"> </p>
