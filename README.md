@@ -10,13 +10,22 @@
 <p align="center"> <img width=auto height=auto src="gif/install.gif"> </p>
 
 ## Game "Is even number?"
+User sees a random number. He needs to answer **yes** if the number is even, or **no** if it is odd.
 
-```$ brain-even```
+run game ```$ brain-even```
 
 <p align="center"> <img width=auto height=auto src="gif/even.gif"> </p>
 
 ## Game "Calculator"
+User sees a random mathematical expression that needs to be calculated and written down the correct answer.
 
-```$ brain-calc```
+run game ```$ brain-calc```
 
 <p align="center"> <img width=auto height=auto src="gif/calc.gif"> </p>
+
+## Game "Greatest common divisor"
+User sees two random numbers. He must calculate and enter the largest common divisor of these numbers.
+
+run game ```$ brain-gcd```
+
+<p align="center"> <img width=auto height=auto src="gif/gcd.gif"> </p>
