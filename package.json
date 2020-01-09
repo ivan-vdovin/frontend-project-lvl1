@@ -1,7 +1,7 @@
 {
   "name": "brain-games",
   "version": "1.0.0",
-  "description": "",
+  "description": "Set of console mini-games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
@@ -23,7 +23,12 @@
     "type": "git",
     "url": "git+https://github.com/ivan-vdovin/frontend-project-lvl1.git"
   },
-  "author": "",
+  "keywords": [
+    "hexlet",
+    "project",
+    "brain-games"
+  ],
+  "author": "Ivan Vdovin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ivan-vdovin/frontend-project-lvl1/issues"
