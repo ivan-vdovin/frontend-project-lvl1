@@ -1,9 +1,7 @@
-
 import getRandomNumber from '../utils';
 import flow from '..';
 
-const task = 'What is the result of the expression?\n';
-
+const task = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const calculate = (a, b, operator) => {

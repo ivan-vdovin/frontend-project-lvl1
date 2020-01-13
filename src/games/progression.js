@@ -1,25 +1,22 @@
-
 import getRandomNumber from '../utils';
 import flow from '..';
 
-const task = 'What number is missing in the progression?\n';
+const task = 'What number is missing in the progression?';
+const progressionLength = 10;
 
-const progLength = 10;
-
-const getProgression = (a1, p, length) => {
-  const progression = [a1];
-
-  for (let i = 1; i < length; i += 1) {
-    progression.push(progression[i - 1] + p);
+const getProgression = (start, diff, length) => {
+  const progression = [];
+  for (let i = 0; i < length; i += 1) {
+    progression.push(start + diff * i);
   }
   return progression;
 };
 
 const getGameData = () => {
-  const a1 = getRandomNumber(1, 10);
-  const p = getRandomNumber(1, 10);
-  const missedElemIndex = getRandomNumber(1, progLength - 1);
-  const progression = getProgression(a1, p, progLength);
+  const start = getRandomNumber(1, 10);
+  const diff = getRandomNumber(1, 10);
+  const missedElemIndex = getRandomNumber(1, progressionLength - 1);
+  const progression = getProgression(start, diff, progressionLength);
 
   const missedElem = progression.splice(missedElemIndex, 1, '..');
 

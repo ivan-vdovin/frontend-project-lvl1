@@ -1,8 +1,7 @@
-
 import getRandomNumber from '../utils';
 import flow from '..';
 
-const task = 'Answer "yes" if the number is even, otherwise answer "no".\n';
+const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => num % 2 === 0;
 

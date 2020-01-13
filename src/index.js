@@ -1,16 +1,16 @@
 import readlineSync from 'readline-sync';
 
-const levelsCount = 3;
+const roundsCount = 3;
 
 export default (task, getGameData) => {
   console.log('Welcome to the Brain Games!');
-  console.log(task);
+  console.log(`${task}\n`);
 
   const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${playerName}!\n`);
 
   const iter = (counter) => {
-    if (counter > levelsCount) {
+    if (counter > roundsCount) {
       console.log(`Congratulations, ${playerName}!`);
       return;
     }
